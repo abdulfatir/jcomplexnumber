@@ -1,3 +1,5 @@
+package com.abdulfatir.jcomplexnumber;
+
 /**
  * <code>ComplexNumber</code> is a class which implements complex numbers in Java. 
  * It includes basic operations that can be performed on complex numbers such as,
@@ -14,7 +16,7 @@
  * </ul>
  * 
  * @author      Abdul Fatir
- * @version		1.1
+ * @version		1.2
  * 
  */
 public class ComplexNumber
