@@ -13,7 +13,7 @@ The features of this library include:
 
 ### Example Usage  
 
-```
+```java
 import com.abdulfatir.jcomplexnumber.ComplexNumber;
 
 public class TestComplexNumber
