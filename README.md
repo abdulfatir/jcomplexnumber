@@ -4,10 +4,10 @@
 A library which implements the complex number data type in Java. 
 
 The features of this library include:  
-1- Arithmetic Operations (addition, subtraction, multiplication, division)  
+1- Arithmetic Operations (addition, subtraction, multiplication, division)
 2- Complex Specific Operations - Conjugate, Inverse, Absolute/Magnitude, Argument/Phase  
 3- Trigonometric Operations - sin, cos, tan, cot, sec, cosec  
-4- Mathematical Functions - exp  
+4- Mathematical Functions - exp, square, sqrt
 5- **Complex Parsing** of type x+yi  
 
 
@@ -55,6 +55,11 @@ public class TestComplexNumber
 		// sin, cos
 		System.out.println(ComplexNumber.sin(c3).toString());
 		System.out.println(ComplexNumber.cos(c3).toString());
+		
+		// square and square root
+		ComplexNumber c4 = new ComplexNumber(-5, 12);
+		System.out.println(c4.square());
+		System.out.println(c4.sqrt());
 					
 	}
 }
