@@ -181,6 +181,20 @@ public class ComplexNumber
 		double _imaginary = 2*this.real*this.imaginary;
 		return new ComplexNumber(_real,_imaginary);
 	}
+	
+	/**
+	 * The square root of the current complex number.
+	 * @return a <code>ComplexNumber</code> which is the square root of the current complex number.
+	 */
+	
+	public ComplexNumber sqrt()
+	{
+		double r = Math.sqrt(this.real*this.real + this.imaginary*this.imaginary);
+		double real = Math.sqrt((r + this.real) / 2);
+		double imaginary = Math.sqrt((r - this.real) / 2);
+		return new ComplexNumber(real, imaginary);
+	}
+	
 	/**
 	* @return the complex number in x + yi format
 	*/

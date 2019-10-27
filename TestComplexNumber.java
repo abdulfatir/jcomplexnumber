@@ -39,6 +39,11 @@ public class TestComplexNumber
 		// sin, cos
 		System.out.println(ComplexNumber.sin(c3).toString());
 		System.out.println(ComplexNumber.cos(c3).toString());
+		
+		// square and square root
+		ComplexNumber c4 = new ComplexNumber(-5, 12);
+		System.out.println(c4.square());
+		System.out.println(c4.sqrt());
 					
 	}
 }
