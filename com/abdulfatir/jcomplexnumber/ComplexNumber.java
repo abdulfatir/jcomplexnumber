@@ -347,6 +347,8 @@ public class ComplexNumber
 			{
 				s = s.replaceAll("i","");
 				s = s.replaceAll("I","");
+                if (s.equals("")) { s = "1"; }
+                else if (s.equals("-")) { s = "-1"; }
 				parsed = new ComplexNumber(0, Double.parseDouble(s));
 			}
 			// Pure real number
